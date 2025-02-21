@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto", "Noto Sans JP", serif;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -91,6 +95,11 @@ label[for="textarea"] {
     left: 40px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .no {
